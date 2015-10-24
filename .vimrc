@@ -123,7 +123,6 @@ set tm=500
 " Enable syntax highlighting
 syntax enable 
 
-colorscheme desert
 set background=dark
 
 " Set extra options when running in GUI mode
@@ -417,3 +416,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0 
+
+filetype plugin on
+syntax on
+set number
