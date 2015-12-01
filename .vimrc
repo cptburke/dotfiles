@@ -397,8 +397,8 @@ endfunction
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-";; to close modes"
-:imap ;; <Esc>
+"tab to close modes"
+:imap <Tab> <Esc>
 
 "ignore vendor directory"
 
@@ -420,3 +420,4 @@ let g:syntastic_check_on_wq = 0
 filetype plugin on
 syntax on
 set number
+colorscheme onedark
