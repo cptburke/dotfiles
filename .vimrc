@@ -398,7 +398,7 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
 "tab to close modes"
-:imap <Tab> <Esc>
+:imap qq <Esc>
 
 "ignore vendor directory"
 
@@ -420,4 +420,3 @@ let g:syntastic_check_on_wq = 0
 filetype plugin on
 syntax on
 set number
-colorscheme onedark
