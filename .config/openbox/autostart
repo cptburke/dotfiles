@@ -1,0 +1,2 @@
+feh --bg-scale ~/background.jpg
+compton --config ~/.config/compton.conf &
