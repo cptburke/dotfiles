@@ -420,5 +420,4 @@ let g:syntastic_check_on_wq = 0
 filetype plugin on
 syntax on
 set number
-set background=dark
-colorscheme gruvbox
+set relativenumber
