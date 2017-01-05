@@ -411,6 +411,13 @@ execute pathogen#infect()
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+map <leader>lcl :lcl<CR>
+
+"ghcmod bindings"
+map <leader>tw :GhcModTypeInsert<CR>
+map <leader>ts :GhcModSplitFunCase<CR>
+map <leader>tq :GhcModType<CR>
+map <leader>te :GhcModTypeClear<CR>
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
